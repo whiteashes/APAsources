@@ -31,7 +31,7 @@ link2 insTail(int val, int nOcc, link2 h);
 link1 insHead1(int val, link1 next);
 link1 newNode1(int val,link1 next);
 link2 newNode2(int val, int nOcc, link2 next);
-void printList2(link2 head);
+void printList1(link1 head);
 void printList2(link2 head);
 
 
