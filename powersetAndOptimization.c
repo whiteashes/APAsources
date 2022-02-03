@@ -25,11 +25,6 @@ int main(){
         sol[i]=0;
     }
 
-    int *mark = malloc(M*sizeof(int));
-    for(int i=0;i<M;i++){
-        mark[i]=0;
-    }
-
     int c_tmp=0;
 
     item_t v[N];
