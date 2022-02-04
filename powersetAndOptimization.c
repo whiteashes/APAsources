@@ -32,7 +32,7 @@ int main(){
     v[1].tipo=3; v[2].tipo=1; v[3].tipo=4; v[4].tipo=7;
 
     int count = powerset(0,sol,v,5,0,0,78,&c_tmp);
-    printf("%d diocane\n",count);
+    printf("%d\n",count);
 
     return 0;
 
