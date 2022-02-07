@@ -28,7 +28,7 @@ int main(){
     L1 = malloc(sizeof(*L1));
     L2 = malloc(sizeof(*L2));
 
-    L0->head = NULL;
+    L0->head = NULL; L2->head = NULL;
 
     int to_add[10] = {7,8,25,2,9,-5,10,37};
     for(i=0;i<8;i++){
